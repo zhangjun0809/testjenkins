@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/scw190919?characterEncoding=utf-8&useSSL=false
+    username: root
+    password: root
+  application:
+    name: NumberOne
+server:
+  port: 8000
