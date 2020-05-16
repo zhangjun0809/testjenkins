@@ -6,6 +6,6 @@ spring:
     username: root
     password: root
   application:
-    name: NumberOne
+    name: numberone
 server:
   port: 8000
